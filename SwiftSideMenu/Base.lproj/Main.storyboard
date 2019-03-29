@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="xKr-44-F3h">
+    <device id="retina5_9" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Web View-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController storyboardIdentifier="ViewController1" id="BYZ-38-t0r" customClass="ViewController" customModule="SwiftSideMenu" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <wkWebView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="eUE-Cc-Js4">
+                                <rect key="frame" x="0.0" y="88" width="375" height="724"/>
+                                <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <wkWebViewConfiguration key="configuration">
+                                    <audiovisualMediaTypes key="mediaTypesRequiringUserActionForPlayback" none="YES"/>
+                                    <wkPreferences key="preferences"/>
+                                </wkWebViewConfiguration>
+                            </wkWebView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="eUE-Cc-Js4" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="1Uw-PD-UVd"/>
+                            <constraint firstItem="eUE-Cc-Js4" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="Aby-cL-gED"/>
+                            <constraint firstAttribute="trailing" secondItem="eUE-Cc-Js4" secondAttribute="trailing" id="E6Q-XA-giB"/>
+                            <constraint firstAttribute="bottom" secondItem="eUE-Cc-Js4" secondAttribute="bottom" id="KT6-hh-Ce7"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="Web View" id="xVG-Tf-vpo">
+                        <barButtonItem key="leftBarButtonItem" title="Toggle" image="menu" id="sai-mr-tUc">
+                            <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <connections>
+                                <action selector="toggleSideMenuBtn:" destination="BYZ-38-t0r" id="dLf-0d-xXn"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="webView" destination="eUE-Cc-Js4" id="HeG-16-lzu"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="37.600000000000001" y="48.768472906403943"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="BIm-BA-X76">
+            <objects>
+                <navigationController id="3P0-5m-oso" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="hTT-rL-ahc">
+                        <rect key="frame" x="0.0" y="44" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="barTintColor" red="0.070588235289999995" green="0.050980392159999999" blue="0.41176470590000003" alpha="1" colorSpace="calibratedRGB"/>
+                        <textAttributes key="titleTextAttributes">
+                            <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        </textAttributes>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="gMT-kX-3ov" kind="relationship" relationship="rootViewController" id="lU5-01-sqm"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="jNX-8F-5qt" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-692" y="717"/>
+        </scene>
+        <!--Charts-->
+        <scene sceneID="ZaE-bk-iww">
+            <objects>
+                <viewController storyboardIdentifier="ViewController2" title="Charts" id="gMT-kX-3ov" customClass="ViewController2" customModule="SwiftSideMenu" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="pS4-Ko-kwh"/>
+                        <viewControllerLayoutGuide type="bottom" id="hT2-oc-fas"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="58r-My-kH9">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Iup-Ag-euC" customClass="AnyChartView" customModule="AnyChartiOS">
+                                <rect key="frame" x="0.0" y="88" width="375" height="690"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="Iup-Ag-euC" firstAttribute="leading" secondItem="58r-My-kH9" secondAttribute="leading" id="O6u-ai-2Nn"/>
+                            <constraint firstAttribute="trailing" secondItem="Iup-Ag-euC" secondAttribute="trailing" id="Tvt-gv-hdU"/>
+                            <constraint firstItem="Iup-Ag-euC" firstAttribute="top" secondItem="pS4-Ko-kwh" secondAttribute="bottom" id="Zya-DY-z3w"/>
+                            <constraint firstItem="hT2-oc-fas" firstAttribute="top" secondItem="Iup-Ag-euC" secondAttribute="bottom" id="g3n-v4-2aJ"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="Charts" id="HbT-H2-o5D">
+                        <barButtonItem key="leftBarButtonItem" title="Toggle" image="menu" id="DuX-Wj-F94">
+                            <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <connections>
+                                <action selector="toggleSideMenuBtn:" destination="gMT-kX-3ov" id="fsz-EU-WHO"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="anyChartView1" destination="Iup-Ag-euC" id="zC1-2E-zHl"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="qZc-WY-K2j" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="37.600000000000001" y="716.74876847290648"/>
+        </scene>
+        <!--Map-->
+        <scene sceneID="U2O-Gc-gp6">
+            <objects>
+                <viewController storyboardIdentifier="ViewController3" title="Map" id="vmo-1u-jOC" customClass="MapViewController" customModule="SwiftSideMenu" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="aZ1-a1-BcP"/>
+                        <viewControllerLayoutGuide type="bottom" id="Pia-6A-Vjh"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="EsI-cR-9So">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Map" id="Jud-3z-LKh">
+                        <barButtonItem key="leftBarButtonItem" title="Toggle" image="menu" id="Cmg-dt-k0X">
+                            <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <connections>
+                                <action selector="toggleSideMenuBtn:" destination="vmo-1u-jOC" id="65j-uE-jKt"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="pdQ-Jr-QE3" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1862" y="49"/>
+        </scene>
+        <!--UI elements-->
+        <scene sceneID="7sn-3Y-MdV">
+            <objects>
+                <viewController storyboardIdentifier="ViewController4" title="UI elements" id="6Ot-12-U3u" customClass="UIElemetsViewController" customModule="SwiftSideMenu" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="UaZ-jL-PH8"/>
+                        <viewControllerLayoutGuide type="bottom" id="lz5-8o-lK3"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Zvd-qX-uS4">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Z9E-pQ-IzN" customClass="ImageSlideshow" customModule="ImageSlideshow">
+                                <rect key="frame" x="0.0" y="88" width="375" height="211"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="Z9E-pQ-IzN" secondAttribute="height" multiplier="16:9" id="pd5-e4-s6c"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="Z9E-pQ-IzN" firstAttribute="top" secondItem="UaZ-jL-PH8" secondAttribute="bottom" id="LWF-r5-SA6"/>
+                            <constraint firstItem="Z9E-pQ-IzN" firstAttribute="leading" secondItem="Zvd-qX-uS4" secondAttribute="leading" id="Q8d-ry-knL"/>
+                            <constraint firstAttribute="trailing" secondItem="Z9E-pQ-IzN" secondAttribute="trailing" id="UYP-qD-inx"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="UI elements" id="iYp-YU-1ge">
+                        <barButtonItem key="leftBarButtonItem" title="Toggle" image="menu" id="U34-sh-8nJ">
+                            <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <connections>
+                                <action selector="toggleSideMenuBtn:" destination="6Ot-12-U3u" id="vSL-KI-wdB"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="adSlider" destination="Z9E-pQ-IzN" id="qks-43-ZGJ"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="PzB-Yr-ZHZ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1862" y="717"/>
+        </scene>
+        <!--Item-->
+        <scene sceneID="cvg-r3-oiY">
+            <objects>
+                <navigationController id="xKr-44-F3h" customClass="MyNavigationController" customModule="SwiftSideMenu" customModuleProvider="target" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Item" id="qnV-qS-iv7"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="j84-05-NcZ">
+                        <rect key="frame" x="0.0" y="44" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="barTintColor" red="0.070588235294117646" green="0.050980392156862744" blue="0.41176470588235292" alpha="1" colorSpace="calibratedRGB"/>
+                        <textAttributes key="titleTextAttributes">
+                            <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        </textAttributes>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="N0Y-WT-BaU"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="KaR-FP-sVw" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-691" y="49"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="p08-1E-0JN">
+            <objects>
+                <navigationController id="6hh-aR-tud" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="tvA-2l-xlI">
+                        <rect key="frame" x="0.0" y="44" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="barTintColor" red="0.070588235289999995" green="0.050980392159999999" blue="0.41176470590000003" alpha="1" colorSpace="calibratedRGB"/>
+                        <textAttributes key="titleTextAttributes">
+                            <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        </textAttributes>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="vmo-1u-jOC" kind="relationship" relationship="rootViewController" id="QZR-bE-MSj"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="R3w-Dr-Ll3" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1094" y="49"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="UHF-bU-snd">
+            <objects>
+                <navigationController id="p6g-0W-Pks" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="Ikv-c7-oXP">
+                        <rect key="frame" x="0.0" y="44" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="barTintColor" red="0.070588235289999995" green="0.050980392159999999" blue="0.41176470590000003" alpha="1" colorSpace="calibratedRGB"/>
+                        <textAttributes key="titleTextAttributes">
+                            <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        </textAttributes>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="6Ot-12-U3u" kind="relationship" relationship="rootViewController" id="8Rr-oi-Rha"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="B2A-8Y-PYV" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1094" y="717"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="menu" width="22" height="22"/>
+    </resources>
+</document>

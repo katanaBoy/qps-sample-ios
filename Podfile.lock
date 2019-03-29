@@ -1,0 +1,30 @@
+PODS:
+  - AnyChartiOS (1.0.3)
+  - GoogleMaps (3.0.3):
+    - GoogleMaps/Maps (= 3.0.3)
+  - GoogleMaps/Base (3.0.3)
+  - GoogleMaps/Maps (3.0.3):
+    - GoogleMaps/Base
+  - ImageSlideshow (1.7.0):
+    - ImageSlideshow/Core (= 1.7.0)
+  - ImageSlideshow/Core (1.7.0)
+
+DEPENDENCIES:
+  - AnyChartiOS (~> 1.0.3)
+  - GoogleMaps
+  - ImageSlideshow (~> 1.6)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - AnyChartiOS
+    - GoogleMaps
+    - ImageSlideshow
+
+SPEC CHECKSUMS:
+  AnyChartiOS: 6c6e2838e0baab8a5651d918e1452f5ed7b8058e
+  GoogleMaps: fd5c9fa58871781b9fb94d4936f19c69fe60ce32
+  ImageSlideshow: f8eec5e37a980f60923b585ff23b0e140fd24018
+
+PODFILE CHECKSUM: f79051351580aa91ebe55a561b3a7c046fa5bb33
+
+COCOAPODS: 1.6.1
