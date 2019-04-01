@@ -40,13 +40,13 @@
 		14EAB63C19DD4E95006A90FC /* ENSideMenuNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ENSideMenuNavigationController.swift; sourceTree = "<group>"; };
 		1C3E3125AB0F8CA8E5936E70 /* libPods-SwiftSideMenu.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SwiftSideMenu.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4E669DD03449EFB18E92FE42 /* Pods-SwiftSideMenu.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftSideMenu.release.xcconfig"; path = "Target Support Files/Pods-SwiftSideMenu/Pods-SwiftSideMenu.release.xcconfig"; sourceTree = "<group>"; };
-		5C132583198E2A9A00CA49BE /* SwiftSideMenu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftSideMenu.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C132583198E2A9A00CA49BE /* CarinaDemoApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CarinaDemoApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5C132587198E2A9A00CA49BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5C132588198E2A9A00CA49BE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5C13258A198E2A9A00CA49BE /* WebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
 		5C13258D198E2A9A00CA49BE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5C13258F198E2A9A00CA49BE /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		5C132595198E2A9A00CA49BE /* SwiftSideMenuTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftSideMenuTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C132595198E2A9A00CA49BE /* CarinaDemoAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CarinaDemoAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5C13259A198E2A9A00CA49BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5C13259B198E2A9A00CA49BE /* SwiftSideMenuTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftSideMenuTests.swift; sourceTree = "<group>"; };
 		5C6D6A261A7E26380047FE0D /* ChartViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChartViewController.swift; sourceTree = "<group>"; };
@@ -123,8 +123,8 @@
 		5C132584198E2A9A00CA49BE /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				5C132583198E2A9A00CA49BE /* SwiftSideMenu.app */,
-				5C132595198E2A9A00CA49BE /* SwiftSideMenuTests.xctest */,
+				5C132583198E2A9A00CA49BE /* CarinaDemoApp.app */,
+				5C132595198E2A9A00CA49BE /* CarinaDemoAppTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -199,9 +199,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		5C132582198E2A9A00CA49BE /* SwiftSideMenu */ = {
+		5C132582198E2A9A00CA49BE /* CarinaDemoApp */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5C13259F198E2A9A00CA49BE /* Build configuration list for PBXNativeTarget "SwiftSideMenu" */;
+			buildConfigurationList = 5C13259F198E2A9A00CA49BE /* Build configuration list for PBXNativeTarget "CarinaDemoApp" */;
 			buildPhases = (
 				040E41EB22BF6D5C461A396F /* [CP] Check Pods Manifest.lock */,
 				5C13257F198E2A9A00CA49BE /* Sources */,
@@ -213,14 +213,14 @@
 			);
 			dependencies = (
 			);
-			name = SwiftSideMenu;
+			name = CarinaDemoApp;
 			productName = SwiftSideMenu;
-			productReference = 5C132583198E2A9A00CA49BE /* SwiftSideMenu.app */;
+			productReference = 5C132583198E2A9A00CA49BE /* CarinaDemoApp.app */;
 			productType = "com.apple.product-type.application";
 		};
-		5C132594198E2A9A00CA49BE /* SwiftSideMenuTests */ = {
+		5C132594198E2A9A00CA49BE /* CarinaDemoAppTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5C1325A2198E2A9A00CA49BE /* Build configuration list for PBXNativeTarget "SwiftSideMenuTests" */;
+			buildConfigurationList = 5C1325A2198E2A9A00CA49BE /* Build configuration list for PBXNativeTarget "CarinaDemoAppTests" */;
 			buildPhases = (
 				5C132591198E2A9A00CA49BE /* Sources */,
 				5C132592198E2A9A00CA49BE /* Frameworks */,
@@ -231,9 +231,9 @@
 			dependencies = (
 				5C132597198E2A9A00CA49BE /* PBXTargetDependency */,
 			);
-			name = SwiftSideMenuTests;
+			name = CarinaDemoAppTests;
 			productName = SwiftSideMenuTests;
-			productReference = 5C132595198E2A9A00CA49BE /* SwiftSideMenuTests.xctest */;
+			productReference = 5C132595198E2A9A00CA49BE /* CarinaDemoAppTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -257,7 +257,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 5C13257E198E2A9A00CA49BE /* Build configuration list for PBXProject "SwiftSideMenu" */;
+			buildConfigurationList = 5C13257E198E2A9A00CA49BE /* Build configuration list for PBXProject "CarinaDemoApp" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -270,8 +270,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				5C132582198E2A9A00CA49BE /* SwiftSideMenu */,
-				5C132594198E2A9A00CA49BE /* SwiftSideMenuTests */,
+				5C132582198E2A9A00CA49BE /* CarinaDemoApp */,
+				5C132594198E2A9A00CA49BE /* CarinaDemoAppTests */,
 			);
 		};
 /* End PBXProject section */
@@ -383,7 +383,7 @@
 /* Begin PBXTargetDependency section */
 		5C132597198E2A9A00CA49BE /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 5C132582198E2A9A00CA49BE /* SwiftSideMenu */;
+			target = 5C132582198E2A9A00CA49BE /* CarinaDemoApp */;
 			targetProxy = 5C132596198E2A9A00CA49BE /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -560,7 +560,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		5C13257E198E2A9A00CA49BE /* Build configuration list for PBXProject "SwiftSideMenu" */ = {
+		5C13257E198E2A9A00CA49BE /* Build configuration list for PBXProject "CarinaDemoApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5C13259D198E2A9A00CA49BE /* Debug */,
@@ -569,7 +569,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5C13259F198E2A9A00CA49BE /* Build configuration list for PBXNativeTarget "SwiftSideMenu" */ = {
+		5C13259F198E2A9A00CA49BE /* Build configuration list for PBXNativeTarget "CarinaDemoApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5C1325A0198E2A9A00CA49BE /* Debug */,
@@ -578,7 +578,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5C1325A2198E2A9A00CA49BE /* Build configuration list for PBXNativeTarget "SwiftSideMenuTests" */ = {
+		5C1325A2198E2A9A00CA49BE /* Build configuration list for PBXNativeTarget "CarinaDemoAppTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5C1325A3198E2A9A00CA49BE /* Debug */,
