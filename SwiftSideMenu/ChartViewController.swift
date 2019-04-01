@@ -8,17 +8,22 @@
 
 import UIKit
 import AnyChartiOS
+import ImageSlideshow
 
-class ViewController2: UIViewController, ENSideMenuDelegate {
+class ChartViewController: UIViewController, ENSideMenuDelegate {
     
     @IBOutlet weak var anyChartView1: AnyChartView!
+    @IBOutlet weak var adSlider: ImageSlideshow!
+    
+    let localSource = [ImageSource(imageString: "img_banner_carina")!, ImageSource(imageString: "img_banner_mcloud")!, ImageSource(imageString: "img_banner_qpsinfra")!, ImageSource(imageString: "img_banner_zafira")!, ImageSource(imageString: "img_banner_zebrunner")!]
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
         self.sideMenuController()?.sideMenu?.delegate = self
         
-        initFruitsChart();
+        initFruitsChart()
+        initAdSlider()
     }
     
     @objc func hell(event: NSDictionary) {
@@ -52,6 +57,32 @@ class ViewController2: UIViewController, ENSideMenuDelegate {
             .align(align: anychart.enums.Align.CENTER)
         
         anyChartView1.setChart(chart: chart)
+    }
+    
+    func initAdSlider() {
+        adSlider.slideshowInterval = 5.0
+        adSlider.pageIndicatorPosition = .init(horizontal: .center, vertical: .under)
+        adSlider.contentScaleMode = UIViewContentMode.scaleAspectFill
+        
+        let pageControl = UIPageControl()
+        pageControl.currentPageIndicatorTintColor = UIColor.lightGray
+        pageControl.pageIndicatorTintColor = UIColor.black
+        adSlider.pageIndicator = pageControl
+        
+        // optional way to show activity indicator during image load (skipping the line will show no activity indicator)
+        adSlider.activityIndicator = DefaultActivityIndicator()
+        //        adSlider.delegate = self
+        
+        adSlider.setImageInputs(localSource)
+        
+        let recognizer = UITapGestureRecognizer(target: self, action: #selector(UIElemetsViewController.didTap))
+        adSlider.addGestureRecognizer(recognizer)
+    }
+    
+    @objc func didTap() {
+        let fullScreenController = adSlider.presentFullScreenController(from: self)
+        // set the activity indicator for full screen controller (skipping the line will show no activity indicator)
+        fullScreenController.slideshow.activityIndicator = DefaultActivityIndicator(style: .white, color: nil)
     }
     
     @IBAction func toggleSideMenuBtn(_ sender: UIBarButtonItem) {
