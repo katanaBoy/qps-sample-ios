@@ -7,14 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		14EAB63D19DD4E95006A90FC /* ENSideMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14EAB63B19DD4E95006A90FC /* ENSideMenu.swift */; };
 		14EAB63E19DD4E95006A90FC /* ENSideMenuNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14EAB63C19DD4E95006A90FC /* ENSideMenuNavigationController.swift */; };
-		5C132589198E2A9A00CA49BE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C132588198E2A9A00CA49BE /* AppDelegate.swift */; };
 		5C13258B198E2A9A00CA49BE /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C13258A198E2A9A00CA49BE /* WebViewController.swift */; };
 		5C132590198E2A9A00CA49BE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5C13258F198E2A9A00CA49BE /* Images.xcassets */; };
-		5C13259C198E2A9A00CA49BE /* SwiftSideMenuTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C13259B198E2A9A00CA49BE /* SwiftSideMenuTests.swift */; };
+		5C13259C198E2A9A00CA49BE /* CarinaDemoAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C13259B198E2A9A00CA49BE /* CarinaDemoAppTests.swift */; };
 		5C6D6A271A7E26380047FE0D /* ChartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C6D6A261A7E26380047FE0D /* ChartViewController.swift */; };
 		5C7D78C21BAEEEC2002BD24B /* LaunchView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5C7D78C11BAEEEC2002BD24B /* LaunchView.xib */; };
+		97FEFD2167EAD591042ED177 /* libPods-CarinaDemoApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BABC7C001627E42D03881272 /* libPods-CarinaDemoApp.a */; };
 		9E4766FC19DDBCE900FCEACC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5C13258C198E2A9A00CA49BE /* Main.storyboard */; };
 		BD114AF8224E2F4300A34BC5 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = BD114AF7224E2F4300A34BC5 /* Podfile */; };
 		BD114AFE224E701000A34BC5 /* UIElemetsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD114AFD224E701000A34BC5 /* UIElemetsViewController.swift */; };
@@ -22,7 +21,14 @@
 		BDE65F8222523C6A0079B948 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDE65F8122523C6A0079B948 /* LoginViewController.swift */; };
 		BDE65F8522523DA60079B948 /* MenuNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDE65F8422523DA60079B948 /* MenuNavigationController.swift */; };
 		BDE65F8722523DDA0079B948 /* MenuTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDE65F8622523DDA0079B948 /* MenuTableViewController.swift */; };
-		CDF716846950214C4334D6A1 /* libPods-SwiftSideMenu.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C3E3125AB0F8CA8E5936E70 /* libPods-SwiftSideMenu.a */; };
+		F6E467C72355C0AF003A7915 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6E467C62355C0AF003A7915 /* AppDelegate.swift */; };
+		F6E467CB2355C11F003A7915 /* ENSideMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6E467CA2355C11F003A7915 /* ENSideMenu.swift */; };
+		F6E467CD2355C17D003A7915 /* ChartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6E467CC2355C17D003A7915 /* ChartViewController.swift */; };
+		F6E467CF2355C184003A7915 /* GoogleMapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6E467CE2355C184003A7915 /* GoogleMapViewController.swift */; };
+		F6FC36122355C26800D5EB70 /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6FC36112355C26800D5EB70 /* WebViewController.swift */; };
+		F6FC36142355C27F00D5EB70 /* UIElemetsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6FC36132355C27F00D5EB70 /* UIElemetsViewController.swift */; };
+		F6FC36162355C2B600D5EB70 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6FC36152355C2B600D5EB70 /* LoginViewController.swift */; };
+		F6FC36182355C32200D5EB70 /* LaunchView.xib in Resources */ = {isa = PBXBuildFile; fileRef = F6FC36172355C32200D5EB70 /* LaunchView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,28 +42,34 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		14EAB63B19DD4E95006A90FC /* ENSideMenu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ENSideMenu.swift; sourceTree = "<group>"; };
 		14EAB63C19DD4E95006A90FC /* ENSideMenuNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ENSideMenuNavigationController.swift; sourceTree = "<group>"; };
-		1C3E3125AB0F8CA8E5936E70 /* libPods-SwiftSideMenu.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SwiftSideMenu.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		4E669DD03449EFB18E92FE42 /* Pods-SwiftSideMenu.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftSideMenu.release.xcconfig"; path = "Target Support Files/Pods-SwiftSideMenu/Pods-SwiftSideMenu.release.xcconfig"; sourceTree = "<group>"; };
 		5C132583198E2A9A00CA49BE /* CarinaDemoApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CarinaDemoApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5C132587198E2A9A00CA49BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		5C132588198E2A9A00CA49BE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5C13258A198E2A9A00CA49BE /* WebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
 		5C13258D198E2A9A00CA49BE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5C13258F198E2A9A00CA49BE /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		5C132595198E2A9A00CA49BE /* CarinaDemoAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CarinaDemoAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5C13259A198E2A9A00CA49BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		5C13259B198E2A9A00CA49BE /* SwiftSideMenuTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftSideMenuTests.swift; sourceTree = "<group>"; };
+		5C13259B198E2A9A00CA49BE /* CarinaDemoAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarinaDemoAppTests.swift; sourceTree = "<group>"; };
 		5C6D6A261A7E26380047FE0D /* ChartViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChartViewController.swift; sourceTree = "<group>"; };
 		5C7D78C11BAEEEC2002BD24B /* LaunchView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LaunchView.xib; sourceTree = "<group>"; };
+		9CACBB921B001023C9353AD9 /* Pods-CarinaDemoApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CarinaDemoApp.debug.xcconfig"; path = "Target Support Files/Pods-CarinaDemoApp/Pods-CarinaDemoApp.debug.xcconfig"; sourceTree = "<group>"; };
+		B265CBBF937BBA6A2657EB9F /* Pods-CarinaDemoApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CarinaDemoApp.release.xcconfig"; path = "Target Support Files/Pods-CarinaDemoApp/Pods-CarinaDemoApp.release.xcconfig"; sourceTree = "<group>"; };
+		BABC7C001627E42D03881272 /* libPods-CarinaDemoApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CarinaDemoApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD114AF7224E2F4300A34BC5 /* Podfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		BD114AFD224E701000A34BC5 /* UIElemetsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIElemetsViewController.swift; sourceTree = "<group>"; };
 		BDE65F7D22521B680079B948 /* GoogleMapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoogleMapViewController.swift; sourceTree = "<group>"; };
 		BDE65F8122523C6A0079B948 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		BDE65F8422523DA60079B948 /* MenuNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuNavigationController.swift; sourceTree = "<group>"; };
 		BDE65F8622523DDA0079B948 /* MenuTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuTableViewController.swift; sourceTree = "<group>"; };
-		F8A821E7A4BC059CA7CA662E /* Pods-SwiftSideMenu.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftSideMenu.debug.xcconfig"; path = "Target Support Files/Pods-SwiftSideMenu/Pods-SwiftSideMenu.debug.xcconfig"; sourceTree = "<group>"; };
+		F6E467C62355C0AF003A7915 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F6E467CA2355C11F003A7915 /* ENSideMenu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ENSideMenu.swift; sourceTree = "<group>"; };
+		F6E467CC2355C17D003A7915 /* ChartViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChartViewController.swift; sourceTree = "<group>"; };
+		F6E467CE2355C184003A7915 /* GoogleMapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GoogleMapViewController.swift; sourceTree = "<group>"; };
+		F6FC36112355C26800D5EB70 /* WebViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
+		F6FC36132355C27F00D5EB70 /* UIElemetsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIElemetsViewController.swift; sourceTree = "<group>"; };
+		F6FC36152355C2B600D5EB70 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		F6FC36172355C32200D5EB70 /* LaunchView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LaunchView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,7 +77,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CDF716846950214C4334D6A1 /* libPods-SwiftSideMenu.a in Frameworks */,
+				97FEFD2167EAD591042ED177 /* libPods-CarinaDemoApp.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -96,27 +108,34 @@
 			name = Controllers;
 			sourceTree = "<group>";
 		};
-		14EAB63A19DD4E95006A90FC /* SideMenu */ = {
+		14EAB63A19DD4E95006A90FC /* SwiftSideMenu */ = {
 			isa = PBXGroup;
 			children = (
-				14EAB63B19DD4E95006A90FC /* ENSideMenu.swift */,
+				F6E467CA2355C11F003A7915 /* ENSideMenu.swift */,
 				14EAB63C19DD4E95006A90FC /* ENSideMenuNavigationController.swift */,
 				BDE65F8422523DA60079B948 /* MenuNavigationController.swift */,
 				BDE65F8622523DDA0079B948 /* MenuTableViewController.swift */,
 			);
-			name = SideMenu;
-			path = ../../SideMenu;
+			path = SwiftSideMenu;
+			sourceTree = "<group>";
+		};
+		3A74445772750843F825E7AD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BABC7C001627E42D03881272 /* libPods-CarinaDemoApp.a */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		5C13257A198E2A9A00CA49BE = {
 			isa = PBXGroup;
 			children = (
 				BD114AF7224E2F4300A34BC5 /* Podfile */,
-				5C132585198E2A9A00CA49BE /* SwiftSideMenu */,
-				5C132598198E2A9A00CA49BE /* SwiftSideMenuTests */,
+				5C132585198E2A9A00CA49BE /* CarinaDemoApp */,
+				5C132598198E2A9A00CA49BE /* CarinaDemoAppTests */,
 				5C132584198E2A9A00CA49BE /* Products */,
 				A827C2549FD5F35DFF4A22BB /* Pods */,
-				7A6851B47D88AFBC8EF0200F /* Frameworks */,
+				3A74445772750843F825E7AD /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -129,18 +148,24 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		5C132585198E2A9A00CA49BE /* SwiftSideMenu */ = {
+		5C132585198E2A9A00CA49BE /* CarinaDemoApp */ = {
 			isa = PBXGroup;
 			children = (
-				5C132588198E2A9A00CA49BE /* AppDelegate.swift */,
-				14EAB63A19DD4E95006A90FC /* SideMenu */,
+				F6FC36172355C32200D5EB70 /* LaunchView.xib */,
+				F6E467C62355C0AF003A7915 /* AppDelegate.swift */,
+				F6E467CC2355C17D003A7915 /* ChartViewController.swift */,
+				F6E467CE2355C184003A7915 /* GoogleMapViewController.swift */,
+				F6FC36112355C26800D5EB70 /* WebViewController.swift */,
+				F6FC36152355C2B600D5EB70 /* LoginViewController.swift */,
+				F6FC36132355C27F00D5EB70 /* UIElemetsViewController.swift */,
+				14EAB63A19DD4E95006A90FC /* SwiftSideMenu */,
 				1429137B19D979A50025188A /* Screens */,
 				5C13258C198E2A9A00CA49BE /* Main.storyboard */,
 				5C7D78C11BAEEEC2002BD24B /* LaunchView.xib */,
 				5C13258F198E2A9A00CA49BE /* Images.xcassets */,
 				5C132586198E2A9A00CA49BE /* Supporting Files */,
 			);
-			path = SwiftSideMenu;
+			path = CarinaDemoApp;
 			sourceTree = "<group>";
 		};
 		5C132586198E2A9A00CA49BE /* Supporting Files */ = {
@@ -151,13 +176,13 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		5C132598198E2A9A00CA49BE /* SwiftSideMenuTests */ = {
+		5C132598198E2A9A00CA49BE /* CarinaDemoAppTests */ = {
 			isa = PBXGroup;
 			children = (
-				5C13259B198E2A9A00CA49BE /* SwiftSideMenuTests.swift */,
+				5C13259B198E2A9A00CA49BE /* CarinaDemoAppTests.swift */,
 				5C132599198E2A9A00CA49BE /* Supporting Files */,
 			);
-			path = SwiftSideMenuTests;
+			path = CarinaDemoAppTests;
 			sourceTree = "<group>";
 		};
 		5C132599198E2A9A00CA49BE /* Supporting Files */ = {
@@ -168,19 +193,11 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		7A6851B47D88AFBC8EF0200F /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				1C3E3125AB0F8CA8E5936E70 /* libPods-SwiftSideMenu.a */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
 		A827C2549FD5F35DFF4A22BB /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				F8A821E7A4BC059CA7CA662E /* Pods-SwiftSideMenu.debug.xcconfig */,
-				4E669DD03449EFB18E92FE42 /* Pods-SwiftSideMenu.release.xcconfig */,
+				9CACBB921B001023C9353AD9 /* Pods-CarinaDemoApp.debug.xcconfig */,
+				B265CBBF937BBA6A2657EB9F /* Pods-CarinaDemoApp.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -203,11 +220,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5C13259F198E2A9A00CA49BE /* Build configuration list for PBXNativeTarget "CarinaDemoApp" */;
 			buildPhases = (
-				040E41EB22BF6D5C461A396F /* [CP] Check Pods Manifest.lock */,
+				4EC760AD0D82365936C01B0B /* [CP] Check Pods Manifest.lock */,
 				5C13257F198E2A9A00CA49BE /* Sources */,
 				5C132580198E2A9A00CA49BE /* Frameworks */,
 				5C132581198E2A9A00CA49BE /* Resources */,
-				D751EFE2DB46938B50F4ECA3 /* [CP] Copy Pods Resources */,
+				2607B00FF8EA7781F14FE4FA /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -262,6 +279,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -283,6 +301,7 @@
 			files = (
 				BD114AF8224E2F4300A34BC5 /* Podfile in Resources */,
 				9E4766FC19DDBCE900FCEACC /* Main.storyboard in Resources */,
+				F6FC36182355C32200D5EB70 /* LaunchView.xib in Resources */,
 				5C7D78C21BAEEEC2002BD24B /* LaunchView.xib in Resources */,
 				5C132590198E2A9A00CA49BE /* Images.xcassets in Resources */,
 			);
@@ -298,7 +317,33 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		040E41EB22BF6D5C461A396F /* [CP] Check Pods Manifest.lock */ = {
+		2607B00FF8EA7781F14FE4FA /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CarinaDemoApp/Pods-CarinaDemoApp-resources.sh",
+				"${PODS_ROOT}/AnyChartiOS/AnyChart-iOS/AnyChartView.xib",
+				"${PODS_ROOT}/AnyChartiOS/AnyChart-iOS/bundle/anychart-bundle.min.js",
+				"${PODS_ROOT}/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Resources/GoogleMaps.bundle",
+				"${PODS_ROOT}/ImageSlideshow/ImageSlideshow/Assets/ic_cross_white@2x.png",
+				"${PODS_ROOT}/ImageSlideshow/ImageSlideshow/Assets/ic_cross_white@3x.png",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/AnyChartView.nib",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/anychart-bundle.min.js",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleMaps.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/ic_cross_white@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/ic_cross_white@3x.png",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CarinaDemoApp/Pods-CarinaDemoApp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4EC760AD0D82365936C01B0B /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -313,41 +358,11 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-SwiftSideMenu-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-CarinaDemoApp-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		D751EFE2DB46938B50F4ECA3 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-SwiftSideMenu/Pods-SwiftSideMenu-resources.sh",
-				"${PODS_ROOT}/AnyChartiOS/AnyChart-iOS/AnyChartView.xib",
-				"${PODS_ROOT}/AnyChartiOS/AnyChart-iOS/bundle/anychart-bundle.min.js",
-				"${PODS_ROOT}/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Resources/GoogleMaps.bundle",
-				"${PODS_ROOT}/ImageSlideshow/ImageSlideshow/Assets/ic_cross_white@2x.png",
-				"${PODS_ROOT}/ImageSlideshow/ImageSlideshow/Assets/ic_cross_white@3x.png",
-			);
-			name = "[CP] Copy Pods Resources";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/AnyChartView.nib",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/anychart-bundle.min.js",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleMaps.bundle",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/ic_cross_white@2x.png",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/ic_cross_white@3x.png",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SwiftSideMenu/Pods-SwiftSideMenu-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -357,16 +372,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F6E467C72355C0AF003A7915 /* AppDelegate.swift in Sources */,
 				BDE65F7E22521B680079B948 /* GoogleMapViewController.swift in Sources */,
+				F6E467CF2355C184003A7915 /* GoogleMapViewController.swift in Sources */,
+				F6FC36162355C2B600D5EB70 /* LoginViewController.swift in Sources */,
 				14EAB63E19DD4E95006A90FC /* ENSideMenuNavigationController.swift in Sources */,
 				BDE65F8722523DDA0079B948 /* MenuTableViewController.swift in Sources */,
+				F6E467CB2355C11F003A7915 /* ENSideMenu.swift in Sources */,
 				5C13258B198E2A9A00CA49BE /* WebViewController.swift in Sources */,
 				BD114AFE224E701000A34BC5 /* UIElemetsViewController.swift in Sources */,
-				14EAB63D19DD4E95006A90FC /* ENSideMenu.swift in Sources */,
 				5C6D6A271A7E26380047FE0D /* ChartViewController.swift in Sources */,
 				BDE65F8522523DA60079B948 /* MenuNavigationController.swift in Sources */,
-				5C132589198E2A9A00CA49BE /* AppDelegate.swift in Sources */,
+				F6FC36142355C27F00D5EB70 /* UIElemetsViewController.swift in Sources */,
 				BDE65F8222523C6A0079B948 /* LoginViewController.swift in Sources */,
+				F6FC36122355C26800D5EB70 /* WebViewController.swift in Sources */,
+				F6E467CD2355C17D003A7915 /* ChartViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -374,7 +394,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5C13259C198E2A9A00CA49BE /* SwiftSideMenuTests.swift in Sources */,
+				5C13259C198E2A9A00CA49BE /* CarinaDemoAppTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -489,10 +509,10 @@
 		};
 		5C1325A0198E2A9A00CA49BE /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F8A821E7A4BC059CA7CA662E /* Pods-SwiftSideMenu.debug.xcconfig */;
+			baseConfigurationReference = 9CACBB921B001023C9353AD9 /* Pods-CarinaDemoApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = SwiftSideMenu/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/CarinaDemoApp/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.solvd.CarinaDemoApplication;
@@ -504,10 +524,10 @@
 		};
 		5C1325A1198E2A9A00CA49BE /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4E669DD03449EFB18E92FE42 /* Pods-SwiftSideMenu.release.xcconfig */;
+			baseConfigurationReference = B265CBBF937BBA6A2657EB9F /* Pods-CarinaDemoApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = SwiftSideMenu/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/CarinaDemoApp/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.solvd.CarinaDemoApplication;

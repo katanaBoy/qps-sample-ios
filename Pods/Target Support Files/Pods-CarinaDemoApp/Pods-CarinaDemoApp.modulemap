@@ -1,0 +1,6 @@
+module Pods_CarinaDemoApp {
+  umbrella header "Pods-CarinaDemoApp-umbrella.h"
+
+  export *
+  module * { export * }
+}
