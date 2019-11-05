@@ -8,12 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		14EAB63E19DD4E95006A90FC /* ENSideMenuNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14EAB63C19DD4E95006A90FC /* ENSideMenuNavigationController.swift */; };
+		460B0E6A146A7D68C2082106 /* libPods-CarinaDemoApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 83E8F927C1B89EFAB456E7E4 /* libPods-CarinaDemoApp.a */; };
 		5C13258B198E2A9A00CA49BE /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C13258A198E2A9A00CA49BE /* WebViewController.swift */; };
 		5C132590198E2A9A00CA49BE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5C13258F198E2A9A00CA49BE /* Images.xcassets */; };
 		5C13259C198E2A9A00CA49BE /* CarinaDemoAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C13259B198E2A9A00CA49BE /* CarinaDemoAppTests.swift */; };
 		5C6D6A271A7E26380047FE0D /* ChartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C6D6A261A7E26380047FE0D /* ChartViewController.swift */; };
 		5C7D78C21BAEEEC2002BD24B /* LaunchView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5C7D78C11BAEEEC2002BD24B /* LaunchView.xib */; };
-		97FEFD2167EAD591042ED177 /* libPods-CarinaDemoApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BABC7C001627E42D03881272 /* libPods-CarinaDemoApp.a */; };
+		6A0E1EE723560839008C1D6D /* StringExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A0E1EE623560839008C1D6D /* StringExtensions.swift */; };
+		6A0E1EEB23560A35008C1D6D /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6A0E1EED23560A35008C1D6D /* Localizable.strings */; };
 		9E4766FC19DDBCE900FCEACC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5C13258C198E2A9A00CA49BE /* Main.storyboard */; };
 		BD114AF8224E2F4300A34BC5 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = BD114AF7224E2F4300A34BC5 /* Podfile */; };
 		BD114AFE224E701000A34BC5 /* UIElemetsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD114AFD224E701000A34BC5 /* UIElemetsViewController.swift */; };
@@ -43,6 +45,7 @@
 
 /* Begin PBXFileReference section */
 		14EAB63C19DD4E95006A90FC /* ENSideMenuNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ENSideMenuNavigationController.swift; sourceTree = "<group>"; };
+		3703C77979A589F47E8567F2 /* Pods-CarinaDemoApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CarinaDemoApp.debug.xcconfig"; path = "Target Support Files/Pods-CarinaDemoApp/Pods-CarinaDemoApp.debug.xcconfig"; sourceTree = "<group>"; };
 		5C132583198E2A9A00CA49BE /* CarinaDemoApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CarinaDemoApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5C132587198E2A9A00CA49BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5C13258A198E2A9A00CA49BE /* WebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
@@ -53,22 +56,28 @@
 		5C13259B198E2A9A00CA49BE /* CarinaDemoAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarinaDemoAppTests.swift; sourceTree = "<group>"; };
 		5C6D6A261A7E26380047FE0D /* ChartViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChartViewController.swift; sourceTree = "<group>"; };
 		5C7D78C11BAEEEC2002BD24B /* LaunchView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LaunchView.xib; sourceTree = "<group>"; };
-		9CACBB921B001023C9353AD9 /* Pods-CarinaDemoApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CarinaDemoApp.debug.xcconfig"; path = "Target Support Files/Pods-CarinaDemoApp/Pods-CarinaDemoApp.debug.xcconfig"; sourceTree = "<group>"; };
-		B265CBBF937BBA6A2657EB9F /* Pods-CarinaDemoApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CarinaDemoApp.release.xcconfig"; path = "Target Support Files/Pods-CarinaDemoApp/Pods-CarinaDemoApp.release.xcconfig"; sourceTree = "<group>"; };
-		BABC7C001627E42D03881272 /* libPods-CarinaDemoApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CarinaDemoApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6A0E1EE623560839008C1D6D /* StringExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringExtensions.swift; sourceTree = "<group>"; };
+		6A0E1EEC23560A35008C1D6D /* English */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/Localizable.strings; sourceTree = "<group>"; };
+		6A0E1EEE23560A40008C1D6D /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Localizable.strings; sourceTree = "<group>"; };
+		6A0E1EEF23560A47008C1D6D /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		6A0E1EF123560DB4008C1D6D /* English */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/Main.strings; sourceTree = "<group>"; };
+		6A0E1EF323560DB8008C1D6D /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Main.strings"; sourceTree = "<group>"; };
+		6A0E1EF423560DBE008C1D6D /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Main.strings; sourceTree = "<group>"; };
+		83E8F927C1B89EFAB456E7E4 /* libPods-CarinaDemoApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CarinaDemoApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD114AF7224E2F4300A34BC5 /* Podfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		BD114AFD224E701000A34BC5 /* UIElemetsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIElemetsViewController.swift; sourceTree = "<group>"; };
 		BDE65F7D22521B680079B948 /* GoogleMapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoogleMapViewController.swift; sourceTree = "<group>"; };
 		BDE65F8122523C6A0079B948 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		BDE65F8422523DA60079B948 /* MenuNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuNavigationController.swift; sourceTree = "<group>"; };
 		BDE65F8622523DDA0079B948 /* MenuTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuTableViewController.swift; sourceTree = "<group>"; };
+		EAE3E5EFB2420480F99E2E35 /* Pods-CarinaDemoApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CarinaDemoApp.release.xcconfig"; path = "Target Support Files/Pods-CarinaDemoApp/Pods-CarinaDemoApp.release.xcconfig"; sourceTree = "<group>"; };
 		F6E467C62355C0AF003A7915 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F6E467CA2355C11F003A7915 /* ENSideMenu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ENSideMenu.swift; sourceTree = "<group>"; };
 		F6E467CC2355C17D003A7915 /* ChartViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChartViewController.swift; sourceTree = "<group>"; };
 		F6E467CE2355C184003A7915 /* GoogleMapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GoogleMapViewController.swift; sourceTree = "<group>"; };
 		F6FC36112355C26800D5EB70 /* WebViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
 		F6FC36132355C27F00D5EB70 /* UIElemetsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIElemetsViewController.swift; sourceTree = "<group>"; };
-		F6FC36152355C2B600D5EB70 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		F6FC36152355C2B600D5EB70 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; indentWidth = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; tabWidth = 4; };
 		F6FC36172355C32200D5EB70 /* LaunchView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LaunchView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -77,7 +86,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				97FEFD2167EAD591042ED177 /* libPods-CarinaDemoApp.a in Frameworks */,
+				460B0E6A146A7D68C2082106 /* libPods-CarinaDemoApp.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -119,14 +128,6 @@
 			path = SwiftSideMenu;
 			sourceTree = "<group>";
 		};
-		3A74445772750843F825E7AD /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				BABC7C001627E42D03881272 /* libPods-CarinaDemoApp.a */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
 		5C13257A198E2A9A00CA49BE = {
 			isa = PBXGroup;
 			children = (
@@ -135,7 +136,7 @@
 				5C132598198E2A9A00CA49BE /* CarinaDemoAppTests */,
 				5C132584198E2A9A00CA49BE /* Products */,
 				A827C2549FD5F35DFF4A22BB /* Pods */,
-				3A74445772750843F825E7AD /* Frameworks */,
+				69AB15C6159322411244CA77 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -151,6 +152,8 @@
 		5C132585198E2A9A00CA49BE /* CarinaDemoApp */ = {
 			isa = PBXGroup;
 			children = (
+				6A0E1EED23560A35008C1D6D /* Localizable.strings */,
+				6A0E1EE5235607D1008C1D6D /* Extensions */,
 				F6FC36172355C32200D5EB70 /* LaunchView.xib */,
 				F6E467C62355C0AF003A7915 /* AppDelegate.swift */,
 				F6E467CC2355C17D003A7915 /* ChartViewController.swift */,
@@ -193,11 +196,27 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		69AB15C6159322411244CA77 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				83E8F927C1B89EFAB456E7E4 /* libPods-CarinaDemoApp.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6A0E1EE5235607D1008C1D6D /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				6A0E1EE623560839008C1D6D /* StringExtensions.swift */,
+			);
+			name = Extensions;
+			sourceTree = "<group>";
+		};
 		A827C2549FD5F35DFF4A22BB /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				9CACBB921B001023C9353AD9 /* Pods-CarinaDemoApp.debug.xcconfig */,
-				B265CBBF937BBA6A2657EB9F /* Pods-CarinaDemoApp.release.xcconfig */,
+				3703C77979A589F47E8567F2 /* Pods-CarinaDemoApp.debug.xcconfig */,
+				EAE3E5EFB2420480F99E2E35 /* Pods-CarinaDemoApp.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -220,11 +239,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5C13259F198E2A9A00CA49BE /* Build configuration list for PBXNativeTarget "CarinaDemoApp" */;
 			buildPhases = (
-				4EC760AD0D82365936C01B0B /* [CP] Check Pods Manifest.lock */,
+				F6DBE05A242FE3E408EACD11 /* [CP] Check Pods Manifest.lock */,
 				5C13257F198E2A9A00CA49BE /* Sources */,
 				5C132580198E2A9A00CA49BE /* Frameworks */,
 				5C132581198E2A9A00CA49BE /* Resources */,
-				2607B00FF8EA7781F14FE4FA /* [CP] Copy Pods Resources */,
+				D553FEEBDEA6551DACFA7340 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -266,6 +285,7 @@
 					5C132582198E2A9A00CA49BE = {
 						CreatedOnToolsVersion = 6.0;
 						LastSwiftMigration = 0900;
+						ProvisioningStyle = Manual;
 					};
 					5C132594198E2A9A00CA49BE = {
 						CreatedOnToolsVersion = 6.0;
@@ -282,6 +302,8 @@
 				English,
 				en,
 				Base,
+				fr,
+				"zh-Hans",
 			);
 			mainGroup = 5C13257A198E2A9A00CA49BE;
 			productRefGroup = 5C132584198E2A9A00CA49BE /* Products */;
@@ -300,6 +322,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BD114AF8224E2F4300A34BC5 /* Podfile in Resources */,
+				6A0E1EEB23560A35008C1D6D /* Localizable.strings in Resources */,
 				9E4766FC19DDBCE900FCEACC /* Main.storyboard in Resources */,
 				F6FC36182355C32200D5EB70 /* LaunchView.xib in Resources */,
 				5C7D78C21BAEEEC2002BD24B /* LaunchView.xib in Resources */,
@@ -317,7 +340,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		2607B00FF8EA7781F14FE4FA /* [CP] Copy Pods Resources */ = {
+		D553FEEBDEA6551DACFA7340 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -343,7 +366,7 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CarinaDemoApp/Pods-CarinaDemoApp-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		4EC760AD0D82365936C01B0B /* [CP] Check Pods Manifest.lock */ = {
+		F6DBE05A242FE3E408EACD11 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -380,6 +403,7 @@
 				BDE65F8722523DDA0079B948 /* MenuTableViewController.swift in Sources */,
 				F6E467CB2355C11F003A7915 /* ENSideMenu.swift in Sources */,
 				5C13258B198E2A9A00CA49BE /* WebViewController.swift in Sources */,
+				6A0E1EE723560839008C1D6D /* StringExtensions.swift in Sources */,
 				BD114AFE224E701000A34BC5 /* UIElemetsViewController.swift in Sources */,
 				5C6D6A271A7E26380047FE0D /* ChartViewController.swift in Sources */,
 				BDE65F8522523DA60079B948 /* MenuNavigationController.swift in Sources */,
@@ -413,8 +437,21 @@
 			isa = PBXVariantGroup;
 			children = (
 				5C13258D198E2A9A00CA49BE /* Base */,
+				6A0E1EF123560DB4008C1D6D /* English */,
+				6A0E1EF323560DB8008C1D6D /* zh-Hans */,
+				6A0E1EF423560DBE008C1D6D /* fr */,
 			);
 			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6A0E1EED23560A35008C1D6D /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6A0E1EEC23560A35008C1D6D /* English */,
+				6A0E1EEE23560A40008C1D6D /* fr */,
+				6A0E1EEF23560A47008C1D6D /* zh-Hans */,
+			);
+			name = Localizable.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -509,14 +546,17 @@
 		};
 		5C1325A0198E2A9A00CA49BE /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9CACBB921B001023C9353AD9 /* Pods-CarinaDemoApp.debug.xcconfig */;
+			baseConfigurationReference = 3703C77979A589F47E8567F2 /* Pods-CarinaDemoApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = "$(SRCROOT)/CarinaDemoApp/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.solvd.CarinaDemoApplication;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_SWIFT3_OBJC_INFERENCE = On;
 				SWIFT_VERSION = 4.0;
 			};
@@ -524,14 +564,17 @@
 		};
 		5C1325A1198E2A9A00CA49BE /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B265CBBF937BBA6A2657EB9F /* Pods-CarinaDemoApp.release.xcconfig */;
+			baseConfigurationReference = EAE3E5EFB2420480F99E2E35 /* Pods-CarinaDemoApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = "$(SRCROOT)/CarinaDemoApp/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.solvd.CarinaDemoApplication;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_SWIFT3_OBJC_INFERENCE = On;
 				SWIFT_VERSION = 4.0;
 			};

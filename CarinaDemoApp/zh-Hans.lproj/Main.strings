@@ -1,0 +1,87 @@
+
+/* Class = "UIViewController"; title = "UI elements"; ObjectID = "6Ot-12-U3u"; */
+"6Ot-12-U3u.title" = "UI elements";
+
+/* Class = "UITextField"; placeholder = "Name"; ObjectID = "7Ga-VK-aC0"; */
+"7Ga-VK-aC0.placeholder" = "Name";
+
+/* Class = "UIViewController"; title = "Login"; ObjectID = "8xg-BP-eUm"; */
+"8xg-BP-eUm.title" = "Login";
+
+/* Class = "UIBarButtonItem"; title = "Toggle"; ObjectID = "Cmg-dt-k0X"; */
+"Cmg-dt-k0X.title" = "Toggle";
+
+/* Class = "UIBarButtonItem"; title = "Toggle"; ObjectID = "DuX-Wj-F94"; */
+"DuX-Wj-F94.title" = "Toggle";
+
+/* Class = "UINavigationItem"; title = "Charts"; ObjectID = "HbT-H2-o5D"; */
+"HbT-H2-o5D.title" = "Charts";
+
+/* Class = "UINavigationItem"; title = "Map"; ObjectID = "Jud-3z-LKh"; */
+"Jud-3z-LKh.title" = "Map";
+
+/* Class = "UILabel"; text = "Dolor sit ame"; ObjectID = "MYb-Sv-YdR"; */
+"MYb-Sv-YdR.text" = "Dolor sit ame";
+
+/* Class = "UILabel"; text = "Copy"; ObjectID = "OsB-85-f5C"; */
+"OsB-85-f5C.text" = "Copy";
+
+/* Class = "UIButton"; normalTitle = "Next"; ObjectID = "Pog-wj-Vb7"; */
+"Pog-wj-Vb7.normalTitle" = "下一个";
+
+/* Class = "UISegmentedControl"; QZQ-xe-baz.segmentTitles[0] = "Male"; ObjectID = "QZQ-xe-baz"; */
+"QZQ-xe-baz.segmentTitles[0]" = "Male";
+
+/* Class = "UISegmentedControl"; QZQ-xe-baz.segmentTitles[1] = "Female"; ObjectID = "QZQ-xe-baz"; */
+"QZQ-xe-baz.segmentTitles[1]" = "Female";
+
+/* Class = "UIBarButtonItem"; title = "Toggle"; ObjectID = "U34-sh-8nJ"; */
+"U34-sh-8nJ.title" = "Toggle";
+
+/* Class = "UITextField"; placeholder = "Text"; ObjectID = "cz9-fo-nLA"; */
+"cz9-fo-nLA.placeholder" = "Text";
+
+/* Class = "UITextField"; placeholder = "Email"; ObjectID = "dmi-Ce-29z"; */
+"dmi-Ce-29z.placeholder" = "Email";
+
+/* Class = "UIViewController"; title = "Charts"; ObjectID = "gMT-kX-3ov"; */
+"gMT-kX-3ov.title" = "Charts";
+
+/* Class = "UINavigationItem"; title = "UI elements"; ObjectID = "iYp-YU-1ge"; */
+"iYp-YU-1ge.title" = "UI elements";
+
+/* Class = "UILabel"; text = "Lorem ipsum"; ObjectID = "jgI-tA-eQC"; */
+"jgI-tA-eQC.text" = "Lorem ipsum";
+
+/* Class = "UIViewController"; title = "Main"; ObjectID = "nAr-XW-CS8"; */
+"nAr-XW-CS8.title" = "Main";
+
+/* Class = "UIButton"; normalTitle = "Sign Up"; ObjectID = "nTf-mL-wdF"; */
+"nTf-mL-wdF.normalTitle" = "Sign Up";
+
+/* Class = "UISegmentedControl"; o80-FE-B31.segmentTitles[0] = "Male"; ObjectID = "o80-FE-B31"; */
+"o80-FE-B31.segmentTitles[0]" = "Male";
+
+/* Class = "UISegmentedControl"; o80-FE-B31.segmentTitles[1] = "Female"; ObjectID = "o80-FE-B31"; */
+"o80-FE-B31.segmentTitles[1]" = "Female";
+
+/* Class = "UISegmentedControl"; o80-FE-B31.segmentTitles[2] = "Other"; ObjectID = "o80-FE-B31"; */
+"o80-FE-B31.segmentTitles[2]" = "Other";
+
+/* Class = "UITextField"; placeholder = "Password"; ObjectID = "oGg-w0-HSG"; */
+"oGg-w0-HSG.placeholder" = "Password";
+
+/* Class = "UITabBarItem"; title = "Item"; ObjectID = "qnV-qS-iv7"; */
+"qnV-qS-iv7.title" = "Item";
+
+/* Class = "UIBarButtonItem"; title = "Toggle"; ObjectID = "sai-mr-tUc"; */
+"sai-mr-tUc.title" = "Toggle";
+
+/* Class = "UILabel"; text = "I agree to the Privacy Policy"; ObjectID = "t82-vO-iXv"; */
+"t82-vO-iXv.text" = "I agree to the Privacy Policy";
+
+/* Class = "UIViewController"; title = "Map"; ObjectID = "vmo-1u-jOC"; */
+"vmo-1u-jOC.title" = "Map";
+
+/* Class = "UINavigationItem"; title = "Web View"; ObjectID = "xVG-Tf-vpo"; */
+"xVG-Tf-vpo.title" = "Web View";

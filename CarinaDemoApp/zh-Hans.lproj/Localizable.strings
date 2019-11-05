@@ -1,0 +1,14 @@
+/* 
+  Localizable.strings
+  CarinaDemoApp
+
+  Created by Alexander Pokynchereda on 15.10.2019.
+  Copyright (c) 2019 Solvd, Inc. All rights reserved.
+*/
+
+"login.name" = "名称";
+"login.password" = "密码";
+"login.male" = "男";
+"login.female" = "女";
+"login.privacy" = "我同意隐私政策";
+"login.signUp" = "注册";

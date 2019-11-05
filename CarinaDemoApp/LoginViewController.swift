@@ -14,14 +14,25 @@ class LoginViewController: UIViewController, UITextFieldDelegate {
     @IBOutlet weak var logibBtn: UIButton!
     @IBOutlet weak var name: UITextField!
     @IBOutlet weak var password: UITextField!
-    
+    @IBOutlet weak var privacyLabel: UILabel!
+  
     override func viewDidLoad() {
         super.viewDidLoad()
         
         self.setupHideKeyboardOnTap()
+        setupLocalization()
         
         name.delegate = self
         password.delegate = self
+    }
+  
+    func setupLocalization(){
+        name.placeholder = "login.name".localized
+        password.placeholder = "login.password".localized
+        privacyLabel.text = "login.privacy".localized
+        genderSwitch.setTitle("login.male".localized, forSegmentAt: 0)
+        genderSwitch.setTitle("login.female".localized, forSegmentAt: 1)
+        logibBtn.setTitle("login.signUp".localized, for: .normal)
     }
     
     @objc func dismissKeyboard (_ sender: UITapGestureRecognizer) {
