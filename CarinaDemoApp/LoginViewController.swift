@@ -30,8 +30,8 @@ class LoginViewController: UIViewController, UITextFieldDelegate {
         name.placeholder = "login.name".localized
         password.placeholder = "login.password".localized
         privacyLabel.text = "login.privacy".localized
-        genderSwitch.setTitle("login.male".localized, forSegmentAt: 0)
-        genderSwitch.setTitle("login.female".localized, forSegmentAt: 1)
+        genderSwitch.setTitle("male".localized, forSegmentAt: 0)
+        genderSwitch.setTitle("female".localized, forSegmentAt: 1)
         logibBtn.setTitle("login.signUp".localized, for: .normal)
     }
     

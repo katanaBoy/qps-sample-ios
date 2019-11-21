@@ -8,7 +8,12 @@
 
 "login.name" = "Name";
 "login.password" = "Password";
-"login.male" = "Male";
-"login.female" = "Female";
 "login.privacy" = "I agree to the Privacy Policy";
 "login.signUp" = "Sign Up";
+
+"male" = "Male";
+"female" = "Female";
+"text" = "Text";
+"email" = "Email";
+"copy" = "Copy";
+"other" = "Other";

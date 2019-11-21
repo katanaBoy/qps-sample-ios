@@ -8,7 +8,12 @@
 
 "login.name" = "名称";
 "login.password" = "密码";
-"login.male" = "男";
-"login.female" = "女";
 "login.privacy" = "我同意隐私政策";
 "login.signUp" = "注册";
+
+"male" = "男";
+"female" = "女";
+"text" = "文本";
+"email" = "电子邮件";
+"copy" = "复制";
+"other" = "其他";

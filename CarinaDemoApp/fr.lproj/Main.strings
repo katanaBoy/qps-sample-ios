@@ -15,10 +15,10 @@
 "DuX-Wj-F94.title" = "Toggle";
 
 /* Class = "UINavigationItem"; title = "Charts"; ObjectID = "HbT-H2-o5D"; */
-"HbT-H2-o5D.title" = "Charts";
+"HbT-H2-o5D.title" = "Graphiques";
 
 /* Class = "UINavigationItem"; title = "Map"; ObjectID = "Jud-3z-LKh"; */
-"Jud-3z-LKh.title" = "Map";
+"Jud-3z-LKh.title" = "Carte";
 
 /* Class = "UILabel"; text = "Dolor sit ame"; ObjectID = "MYb-Sv-YdR"; */
 "MYb-Sv-YdR.text" = "Dolor sit ame";
@@ -48,7 +48,7 @@
 "gMT-kX-3ov.title" = "Charts";
 
 /* Class = "UINavigationItem"; title = "UI elements"; ObjectID = "iYp-YU-1ge"; */
-"iYp-YU-1ge.title" = "UI elements";
+"iYp-YU-1ge.title" = "Éléments d'interface utilisateur";
 
 /* Class = "UILabel"; text = "Lorem ipsum"; ObjectID = "jgI-tA-eQC"; */
 "jgI-tA-eQC.text" = "Lorem ipsum";
@@ -84,4 +84,4 @@
 "vmo-1u-jOC.title" = "Map";
 
 /* Class = "UINavigationItem"; title = "Web View"; ObjectID = "xVG-Tf-vpo"; */
-"xVG-Tf-vpo.title" = "Web View";
+"xVG-Tf-vpo.title" = "Affichage Web";
